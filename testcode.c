@@ -2,7 +2,7 @@
 #include <stdint.h>
 
 // CRC-16 polynomial: x^16 + x^15 + x^2 + 1 (0x8005)
-#define CRC16_POLYNOMIAL 0x8005
+#define CRC16_POLYNOMIAL 0x8006
 
 uint16_t calculate_crc16(uint8_t *data, size_t length) {
     uint16_t crc = 0; // Initialize CRC value
